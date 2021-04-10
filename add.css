@@ -98,3 +98,43 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* Adaptateur d'écran */
+
+@media screen and (max-width: 1280px)
+{
+    nav{
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 60px;
+    }
+    a {
+        align-items: stretch;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 35px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    #article{
+        border: solid black;
+        border-radius: 10px;
+        display: block;
+        height: 405px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+        position: relative;
+        top: 170px;
+        width: 600px;
+    }
+    #containerArticle {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
