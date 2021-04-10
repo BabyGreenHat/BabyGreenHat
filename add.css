@@ -6,7 +6,7 @@
     justify-content: space-around;
 }
 
-#article{
+#article {
     border: solid black;
     border-radius: 10px;
     display: block;
@@ -41,7 +41,7 @@
     top: 900px;
 }
 
-.firstText{
+.firstText {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     height: 40%;
@@ -53,7 +53,7 @@
     border-radius: 10px;
 }
 
-.secondText{
+.secondText {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     width: 100%;
@@ -80,7 +80,7 @@
     font-size: 15px;
 }
 
-nav{
+nav {
     left: 0;
     position: absolute;
     right: 0;
