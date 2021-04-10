@@ -129,12 +129,27 @@ a:hover {
         margin-right: auto;
         padding: 15px;
         position: relative;
-        top: 350px;
+        top: 300px;
         width: 800px;
     }
     #containerArticle {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+    #navEnd {
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        height: 60px;
+        justify-content: space-around;
+    }
+    
+    #end {
+        display: block;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 900px;
     }
 }
