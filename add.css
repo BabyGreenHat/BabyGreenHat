@@ -114,6 +114,11 @@ a:hover {
     font-size: 20px;
     width: 100%;
     }
+    .workFirsText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 73%;
+    }
     nav {
         left: 0;
         position: absolute;
@@ -161,6 +166,6 @@ a:hover {
         left: 0;
         position: absolute;
         right: 0;
-        top: 1400px;
+        top: 1500px;
     }
 }
